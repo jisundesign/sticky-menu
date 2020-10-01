@@ -29,7 +29,10 @@ createDummyParag(parag2, 300);
 function sticky() {
   let target = document.querySelector(".menu");
   let targetTop = target.offsetTop;
-  let absoluteTargetTop = target.previousElementSibling.offsetHeight;
+  let prevSib = target.previousElementSibling;
+  let absoluteTargetTop = prevSib.offsetTop + prevSib.offsetHeight;
+
+  console.log(absoluteTargetTop);
 
   if (window.pageYOffset >= targetTop) {
     target.classList.add("sticky");
