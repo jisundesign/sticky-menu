@@ -36,6 +36,12 @@ ul li {
 
 .container h3, .container p {
   padding: 0 20px 0;
+  word-break: break-all;
+}
+
+.parag {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .menu {
