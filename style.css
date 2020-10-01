@@ -1,0 +1,58 @@
+:root {
+  --header-height: 70px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: var(--header-height);
+  color: #FFF;
+  background:#4E66E1;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 16px 0 0 20px;
+  font-size: 1.75rem;
+}
+
+ul {
+  display: inline-flex;
+  margin: 25px 20px 0 0;
+  list-style: none;
+}
+
+ul li {
+  margin: 0 0 0 20px;
+}
+
+.container h3, .container p {
+  padding: 0 20px 0;
+}
+
+.menu {
+  width: 100%;
+  padding: 60px 0;
+  font-size: 2.0rem;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(250, 232, 128);
+  transition: all ease .2s;
+}
+
+.menu.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  font-size: 1.0rem;
+  z-index: 10;
+}
