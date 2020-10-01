@@ -32,8 +32,6 @@ function sticky() {
   let prevSib = target.previousElementSibling;
   let absoluteTargetTop = prevSib.offsetTop + prevSib.offsetHeight;
 
-  console.log(absoluteTargetTop);
-
   if (window.pageYOffset >= targetTop) {
     target.classList.add("sticky");
     if (window.pageYOffset <= absoluteTargetTop) {
