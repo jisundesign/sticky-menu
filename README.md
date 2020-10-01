@@ -1,4 +1,4 @@
-# StickyMenu
+# Sticky Menu
 
 When you scroll through the page, the menu automatically attaches to the top of the page.
 
