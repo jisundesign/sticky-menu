@@ -37,7 +37,5 @@ function sticky() {
     if (window.pageYOffset <= absoluteTargetTop) {
       target.classList.remove("sticky");
     }
-  } else {
-    target.classList.remove("sticky");
   }
 }
